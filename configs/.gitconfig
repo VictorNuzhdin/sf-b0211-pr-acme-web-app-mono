@@ -1,0 +1,11 @@
+[user]
+	name = IvanovIvan
+	email = ivanov.ivan@email.io
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[alias]
+	history = log --pretty=format:'%C(green)%h%C(reset) %C(bold blue)%ai%C(reset) | %C(green)%s%C(reset)%d %C(yellow)[%an]%C(reset)' --graph --date=short
